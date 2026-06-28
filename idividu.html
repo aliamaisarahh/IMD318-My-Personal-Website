@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Maisarah's First Website</title>
+	<link rel="Maisarah's Icon" type="image/jpg" href="Selfie.png">
+
+</head>
+<body style="margin: 0;">
+
+	<!--First division-->
+      <div id="firstdivision" style="background-image: url('PinterestBlue.jpg');background-size: cover; height: 600px; padding-top: 80px; text-align: center;">
+
+      	<img src="SelfieOri.jpg" style="height: 140px;border-radius: 50%; border: 5px solid lightblue ;"> 
+
+      	<h1 style="font-size: 85px; color: whitesmoke ;margin: 10px; text-shadow: -2px 0 white ;">Maisarah's Personal Information</h1>
+
+      	<p style="font-size: 45px; color: lightblue; margin-top: 80px; ">Get to Know Me!
+      	</p>
+      	
+      	<div id="demo" style="font-size: 20px; color: whitesmoke; text-align: center; margin-top: 25px;"></div>
+<script>
+setInterval(myTimer, 1000);
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+<style>
+	
+.big-box{
+	font-size: 20px;
+	color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+
+    background-color: powderblue;
+    color: white;
+    text-decoration: none;
+    padding: 40px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.big-box a{
+    background-color: powderblue; padding: 5px; color: #462d26;}
+    
+</style>
+      	<div class="big-box">
+
+    <a href="idividu.html" >Home</a>
+    <a href="Introduction.html" >Biodata</a>
+    <a href="FamilyBackground.html" >Family Background</a>
+    <a href="Index.html" >Education</a>
+    <a href="Index.html" >Hobby</a>
+</div>
+
+</body>
+</html>
